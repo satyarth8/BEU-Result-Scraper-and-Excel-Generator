@@ -1,16 +1,15 @@
 
-# BEU Result Scrapping & Excel Generation
-
+## BEU Result Scrapping & Excel Generation
 - https://github.com/satyarth8/BEU-Result-Scraper-and-Excel-Generator/blob/main/BEU%20result%20scraper.ipynb 
 - The method applied to extract is clearly shown in this python notebook..
 - The full script is yet to be put in public... 
-- Thank you 
+- Thank you
+## Output Excel file looks like this
+<img src="https://github.com/satyarth8/BEU-Result-Scraper-and-Excel-Generator/assets/126249188/b8f1254c-e31f-43ac-bf6c-38fc415c3f6d" alt="" style="width:80%;height:auto;" />
 
 # Overview
 > The BEU Result Automation & Excel Generation project is a Python-based tool designed to automate the retrieval, organization, and reporting of student results from the Bihar Engineering University (BEU) result portal. The script employs web scraping techniques to extract data accurately and efficiently, generating detailed Excel reports for further analysis.
 
-## Output Excel file looks like this
-<img src="https://github.com/satyarth8/BEU-Result-Scraper-and-Excel-Generator/assets/126249188/b8f1254c-e31f-43ac-bf6c-38fc415c3f6d" alt="" style="width:80%;height:auto;" />
 
 # Technologies Used
 - Python
