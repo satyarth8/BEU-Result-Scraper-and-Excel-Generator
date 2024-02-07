@@ -1,5 +1,5 @@
 
-# BEU Result Automation & Excel Generation
+# BEU Result Scrapping & Excel Generation
 # Overview
 > The BEU Result Automation & Excel Generation project is a Python-based tool designed to automate the retrieval, organization, and reporting of student results from the Bihar Engineering University (BEU) result portal. The script employs web scraping techniques to extract data accurately and efficiently, generating detailed Excel reports for further analysis.
 
