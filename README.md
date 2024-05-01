@@ -1,6 +1,3 @@
-### Updates
-- Added provision for if the server gives 404 response to retry
-
 ## BEU Result Scrapping & Excel Generation
 - https://github.com/satyarth8/BEU-Result-Scraper-and-Excel-Generator/blob/main/BEU%20result%20scraper.ipynb
 - Follow the Instructions below...
@@ -25,6 +22,21 @@ Open a terminal or command prompt and install the required libraries by running 
 - Save the script to a file (e.g., result_scraper.py) and run it using Python (e.g., python result_scraper.py).
 - The script will fetch the results for the specified roll numbers, extract the required information, and save it to an Excel file on your desktop.
 ### Note: Make sure to adjust the script according to your specific needs and the structure of the result page. Additionally, be respectful of the website's terms of use and avoid overwhelming the server with too many requests.
+
+# Updates
+I had to handle several cases while working on this project. Here are some of them:
+1. Name and values returning 'NoneType':
+   I handled this by adding a simple datatype check and returning 'N/A' if the value was missing.
+2. Server overloaded situation:
+   I handled this by adding a delayed loop of requests to ensure that all requests were eventually processed.
+3. Different subjects for each branch, semester, and year:
+   I created a function that generates a skeleton of the subject columns based on the first roll number.
+4. Handling no internet connection:
+   I checked the status codes and retried the request if necessary.
+Next steps:
+ > Making it more user-friendly: I plan to use the Qt Library to package the code into a software. This will make it easier for users to interact with the code and view the results.
+
+ > Time complexity: The current time complexity is O(n), which is efficient for scraping the results of around 100 students in a minute. However, this depends on the internet connection and the server's response time.
 
 # Overview
 > The BEU Result Automation & Excel Generation project is a Python-based tool designed to automate the retrieval, organization, and reporting of student results from the Bihar Engineering University (BEU) result portal. The script employs web scraping techniques to extract data accurately and efficiently, generating detailed Excel reports for further analysis.
